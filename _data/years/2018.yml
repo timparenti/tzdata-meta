@@ -1,0 +1,213 @@
+year: '2018'
+changes:
+  - country: ST
+    zones:
+      - Africa/Sao_Tome
+    description: "São Tomé and Príncipe switches from +01 to +00 on 2019-01-01 at 02:00."
+    effective: '2019-01-01T01:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-December/027342.html'
+      time: '2018-12-29T20:31:03Z'
+    commits: 
+      - sha1: a2ddd4a076b283ab80b20afbd70134efea451089
+        time: '2018-12-29T23:46:40Z'
+      - sha1: 379f7ba9b81eee97f0209a322540b4a522122b5d
+        time: '2018-12-30T06:37:49Z'
+    release: 2018i
+
+  - country: KZ
+    zones:
+      - Asia/Qostanay
+      - Asia/Qyzylorda
+    description: "Qyzylorda, Kazakhstan moved from +06 to +05 on 2018-12-21 at 00:00.  New zone Asia/Qostanay because Qostanay, Kazakhstan didn't move."
+    effective: '2018-12-20T18:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-December/027313.html'
+      time: '2018-12-20T17:17:14Z'
+    commits:
+      - sha1: 6fb0daf8a1906e47a96a5f035d723468fe996461
+        time: '2018-12-20T19:40:19Z'
+    release: 2018h
+
+  - country: US
+    zones:
+      - America/Metlakatla
+    description: "Metlakatla, Alaska will only observe year-round -08 for the winter of 2018/2019, returning to Alaska Time with DST by not changing clocks on 2019-03-10 either."
+    effective: '2019-11-03T10:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-December/027311.html'
+      time: '2018-12-17T01:30:04Z'
+    commits:
+      - sha1: 18755931c8bac2ac2539211e83b82ada0ee4ba5e
+        time: '2018-12-17T01:28:50Z'
+    release: 2018h
+
+  - country: US
+    zones:
+      - America/Metlakatla
+    description: "Metlakatla, Alaska did not change clocks on 2018-11-04 at 02:00 and will observe year-round -08."
+    effective: '2018-11-04T10:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-November/027200.html'
+      time: '2018-11-07T01:49:47Z'
+    commits:
+      - sha1: a665f1572f20442492cf539754b33444d90a59bc
+        time: '2018-11-07T04:43:05Z'
+    release: 2018h
+
+  - country: MA
+    zones:
+      - Africa/Casablanca
+      - Africa/El_Aaiun
+    description: "Morocco switches to permanent +01 on 2018-10-28 at 00:00."
+    effective: '2018-10-27T23:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-October/027099.html'
+      time: '2018-10-26T10:57:54Z'
+    commits:
+      - sha1: 80de44ca0f2349c0f42f12caa943ced8685c3b67
+        time: '2018-10-26T17:16:47Z'
+    release: 2018g
+
+  - country: BR
+    zones:
+      - America/Sao_Paulo
+      - America/Campo_Grande
+      - America/Cuiaba
+    description: "Brazil canceled its 2018-11 change to DST transition, and will begin DST as scheduled on 2018-11-04 at 00:00."
+    effective: '2018-11-04T03:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-October/027016.html'
+      time: '2018-10-16T00:24:14Z'
+    commits: 
+      - sha1: 580cd39fe23448de5113ecb869960b28dfa9894d
+        time: '2018-10-16T00:52:59Z'
+    release: 2018f
+
+  - country: BR
+    zones:
+      - America/Sao_Paulo
+      - America/Campo_Grande
+      - America/Cuiaba
+    description: "Southern Brazil starts DST two weeks later in 2018, on 2018-11-18 at 00:00."
+    effective: '2018-11-04T03:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-October/026917.html'
+      time: '2018-10-04T11:49:17Z'
+    commits: 
+      - sha1: efda0562d7fc7bc90b6cab76998fab8b4953e056
+        time: '2018-10-04T15:24:15Z'
+    release: 2018f
+
+  - country: RU
+    zones:
+      - Europe/Volgograd
+    description: "Volgograd moves from +03 to +04 on 2018-10-28 at 02:00."
+    effective: '2018-10-27T23:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-September/026879.html'
+      time: '2018-09-20T12:03:01Z'
+    commits:
+      - sha1: db8b5f59c3a4d2fcc9b95b702f24f47e3d9857ba
+        time: '2018-09-29T09:14:05Z'
+    release: 2018f
+
+  - country: CL
+    zones:
+      - America/Santiago
+      - Pacific/Easter
+    description: "Most of Chile changes DST dates, effective 2019-04-06 at 03:00 UTC."
+    effective: '2019-04-06T03:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-August/026745.html'
+      time: '2018-08-13T14:01:44Z'
+    commits:
+      - sha1: f67f9e27fda16c9a463066496d2a94f239bba0db
+        time: '2018-08-13T15:11:44Z'
+    release: 2018f
+
+  - country: FJ
+    zones:
+      - Pacific/Fiji
+    description: "Fiji ends DST 2019-01-13 at 03:00, not 2019-01-20."
+    effective: '2019-01-12T14:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-July/026628.html'
+      time: '2018-07-13T02:59:31Z'
+    commits:
+      - sha1: 3580d1ed83661300bf52de996e30c6be3ff9ae0d
+        time: '2018-07-13T04:28:53Z'
+    release: 2018f
+
+  - country: KP
+    zones:
+      - Asia/Pyongyang
+    description: "North Korea switches back to +09 on 2018-05-05 at 00:00."
+    effective: '2018-05-04T15:30:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-April/026423.html'
+      time: '2018-04-29T02:15:55Z'
+    commits:
+      - sha1: 511df4d784a90340397d30966ccfd002bca2fdc1
+        time: '2018-04-30T02:29:29Z'
+    release: 2018e
+    notes: "After release, it was later determined that this change actually took place on 2018-05-04 at 23:30."
+
+  - country: PS
+    zones:
+      - Asia/Gaza
+      - Asia/Hebron
+    description: "Palestine starts DST a week earlier in 2018, on 2018-03-24 at 01:00."
+    effective: '2018-03-23T23:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-March/026347.html'
+      time: '2018-03-16T17:45:33Z'
+    commits:
+      - sha1: db6b741026eace55a939a13a32a7b6eca9897c10 
+        time: '2018-03-16T18:37:50Z'
+    release: 2018d
+
+  - country: AQ
+    zones:
+      - Antarctica/Casey
+    description: "Casey Station in Antarctica changed from +11 to +08 on 2018-03-11 at 04:00."
+    effective: '2018-03-10T17:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-March/026339.html'
+      time: '2018-03-14T22:23:13Z'
+    commits:
+      - sha1: a77c2e66f9d9b7ebe124601a95aae9cc22b41788
+        time: '2018-03-14T22:49:05Z'
+    release: 2018d
+
+  - country: ST
+    zones:
+      - Africa/Sao_Tome
+    description: "São Tomé and Príncipe switched from +00 to +01 on 2018-01-01 at 01:00."
+    effective: '2018-01-01T01:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2018-January/025801.html'
+      time: '2018-01-08T12:04:28Z'
+    commits: 
+      - sha1: 2951fa3bbc8d68e894e96a2399322254e20714a2
+        time: '2018-01-08T17:03:13Z'
+      - sha1: a4272fbf28192d2c6e6d7ef0c6b83aae83dbed4b
+        time: '2018-01-09T00:12:21Z'
+    release: 2018c
+    notes: "This change was tagged earlier in 2018a and 2018b, which were never officially released."
+
+  - country: BR
+    zones:
+      - America/Sao_Paulo
+      - America/Campo_Grande
+      - America/Cuiaba
+    description: "Brazil delays DST start by two weeks or so, to 2018-11-04 at 00:00."
+    effective: '2018-11-04T03:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2017-December/025779.html'
+      time: '2017-12-18T10:22:58Z'
+    commits: 
+      - sha1: 13849c314693c27679f21226c1cb14d7153c03c2
+        time: '2017-12-19T19:53:44Z'
+    release: 2018c
+    notes: "This change was tagged earlier in 2018a and 2018b, which were never officially released."

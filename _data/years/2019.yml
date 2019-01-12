@@ -1,0 +1,13 @@
+year: '2019'
+changes:
+  - country: US
+    zones:
+      - America/Metlakatla
+    description: "Metlakatla, Alaska will return to Alaska Time with DST on 2019-01-20 at 02:00, ot 2019-03-10 as previously predicted."
+    effective: '2019-01-20T10:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2019-January/027387.html'
+      time: '2019-01-11T17:48:40Z'
+    commits:
+      - sha1: f18c24d6686a6e6eae2478c1bbaf19861179715c
+        time: '2019-01-11T19:35:37Z'

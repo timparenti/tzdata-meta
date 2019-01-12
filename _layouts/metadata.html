@@ -1,0 +1,115 @@
+---
+layout: default
+---
+
+<style>
+.container-lg {
+  max-width: 90%;
+}
+</style>
+
+{% include scope.html %}
+
+{%- assign year = page.title | downcase -%}
+<h2>Changes with notice first sent in {{ year }}</h2>
+
+{%- assign changes = site.data.years[year].changes -%}
+<table>
+  <tbody>
+  <tr style="font-size: 85%;">
+    <th colspan="2">Country</th>
+    <th>Affected Zones</th>
+    <th width="20%">Description</th>
+    <th>Earliest effective date for UTC offset changes</th>
+    <th>Initial notice sent to <a href="https://mm.icann.org/pipermail/tz/" target="_blank"><code>tz</code> discussion list</a></th>
+    <th>Commits to <a href="https://github.com/eggert/tz" target="_blank">development repository</a></th>
+    <th><code>tz</code> release</th>
+    <th width="15%">Notes</th>
+  </tr>
+
+{%- for change in changes -%}
+  {%- assign country_data = site.data.iso3166[change.country] -%}
+
+  {%- assign effective_ts = change.effective | date: "%s" -%}
+  {%- assign notice_ts = change.notice.time | date: "%s" -%}
+  {%- assign commit_ts = change.commits.last.time | date: "%s" -%}
+  {%- assign tag_ts = site.data.tz_releases[change.release].tagged | date: "%s" -%}
+  {%- assign release_ts = site.data.tz_releases[change.release].released | date: "%s" -%}
+
+  {%- if notice_ts > effective_ts -%}
+    {%- assign notice_delta_sign = "&minus;" -%}
+  {%- else -%}
+    {%- assign notice_delta_sign = "" -%}
+  {%- endif -%}
+  {%- if commit_ts > effective_ts -%}
+    {%- assign commit_delta_sign = "&minus;" -%}
+  {%- else -%}
+    {%- assign commit_delta_sign = "" -%}
+  {%- endif -%}
+  {%- if tag_ts > effective_ts -%}
+    {%- assign tag_delta_sign = "&minus;" -%}
+  {%- else -%}
+    {%- assign tag_delta_sign = "" -%}
+  {%- endif -%}
+  {%- if release_ts > effective_ts -%}
+    {%- assign release_delta_sign = "&minus;" -%}
+  {%- else -%}
+    {%- assign release_delta_sign = "" -%}
+  {%- endif -%}
+
+  {%- assign notice_delta = effective_ts | minus: notice_ts | abs -%}
+  {%- assign commit_delta = effective_ts | minus: commit_ts | abs -%}
+  {%- assign tag_delta = effective_ts | minus: tag_ts | abs -%}
+  {%- assign release_delta = effective_ts | minus: release_ts | abs -%}
+
+  {%- assign notice_delta_days = notice_delta | divided_by: 86400.0 | floor -%}
+  {%- assign commit_delta_days = commit_delta | divided_by: 86400.0 | floor -%}
+  {%- assign tag_delta_days = tag_delta | divided_by: 86400.0 | floor -%}
+  {%- assign release_delta_days = release_delta | divided_by: 86400.0 | floor -%}
+
+  {%- assign notice_delta_hours = notice_delta | modulo: 86400.0 | divided_by: 3600.0 | round: 1 -%}
+  {%- assign commit_delta_hours = commit_delta | modulo: 86400.0 | divided_by: 3600.0 | round: 1 -%}
+  {%- assign tag_delta_hours = tag_delta | modulo: 86400.0 | divided_by: 3600.0 | round: 1 -%}
+  {%- assign release_delta_hours = release_delta | modulo: 86400.0 | divided_by: 3600.0 | round: 1 -%}
+  <tr>
+    <th>{{ change.country }}</th>
+    <td>{{ country_data.emoji }}&nbsp;{{ country_data.name }}</td>
+    <td style="font-size: 70%;">{{ change.zones | join: ", " }}</td>
+    <td style="font-size: 60%;">{{ change.description }}</td>
+    <td style="font-size: 70%;"><nobr><strong>{{ change.effective }}</strong></nobr></td>
+    <td style="font-size: 70%;">
+      {%- if change.notice -%}
+        <nobr><a href="{{ change.notice.url }}" target="_blank">{{ change.notice.time }}</a></nobr>
+        <hr style="margin: 0;">
+        Leadtime: {{ notice_delta_sign }}{{ notice_delta_days }}d, {{ notice_delta_hours }}h
+      {%- endif -%}
+    </td>
+    <td style="font-size: 70%;">
+      {%- if change.commits -%}
+        <ul style="margin: 0;">
+          {%- for commit in change.commits -%}
+          <li><a href="https://github.com/eggert/tz/commit/{{ commit.sha1 }}" target="_blank"><code>{{ commit.sha1 | slice: 0,7 }}</code></a> <nobr>{{ commit.time }}</nobr></li>
+          {%- endfor -%}
+        </ul>
+        <hr style="margin: 0;">
+        Leadtime: {{ commit_delta_sign}}{{ commit_delta_days }}d, {{ commit_delta_hours }}h
+      {%- endif -%}
+    </td>
+    <td style="font-size: 70%;">
+      {%- if change.release -%}
+        <a href="https://github.com/eggert/tz/releases/tag/{{ change.release }}" target="_blank"><strong>{{ change.release }}</strong></a><br>
+        <nobr>{{ site.data.tz_releases[change.release].released }}</nobr>
+        <hr style="margin: 0;">
+        Leadtime: {{ release_delta_sign }}{{ release_delta_days }}d, {{ release_delta_hours }}h
+      {%- else -%}
+        Unreleased
+      {%- endif -%}
+    </td>
+    <td style="font-size: 60%;">{{ change.notes }}</td>
+  </tr>
+{%- endfor -%}
+
+  </tbody>
+</table>
+
+{% include footer.html %}

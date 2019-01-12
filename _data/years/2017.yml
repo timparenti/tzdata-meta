@@ -1,0 +1,128 @@
+year: '2017'
+changes:
+  - country: BR
+    zones:
+      - America/Sao_Paulo
+      - America/Campo_Grande
+      - America/Cuiaba
+    description: "Brazil delays DST start by two weeks or so, to 2018-11-04 at 00:00."
+    effective: '2018-11-04T03:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2017-December/025779.html'
+      time: '2017-12-18T10:22:58Z'
+    commits: 
+      - sha1: 13849c314693c27679f21226c1cb14d7153c03c2
+        time: '2017-12-19T19:53:44Z'
+    release: 2018c
+    notes: "This change was tagged earlier in 2018a and 2018b, which were never officially released."
+
+  - country: TO
+    zones:
+      - Pacific/Tongatapu
+    description: "Tonga likely switches from +13/+14 to +13 by not adjusting its clocks on 2017-11-05 at 02:00."
+    effective: '2017-11-04T13:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2017-October/025338.html'
+      time: '2017-10-18T09:36:46Z'
+    commits:
+      - sha1: 7c16b2f0a0d1fe1740f78b7680a665e606ac01a8
+        time: '2017-10-18T18:18:36Z'
+    release: 2017c
+    notes: "It was not known at the time whether Tonga would observe DST."
+
+  - country: CY
+    zones:
+      - Asia/Famagusta
+    description: "Northern Cyprus switches from +03 to +02/+03 on 2017-10-29 at 04:00."
+    effective: '2017-10-29T01:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2017-October/025336.html'
+      time: '2017-10-18T08:48:35Z'
+    commits:
+      - sha1: 7c4a6385011e1791e491547b51216bd01b0895c2
+        time: '2017-10-18T08:47:21Z'
+    release: 2017c
+
+  - country: SD
+    zones:
+      - Africa/Khartoum
+    description: "Sudan switches from +03 to +02 on 2017-11-01."
+    effective: '2017-10-31T21:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2017-October/025316.html'
+      time: '2017-10-17T00:34:32Z'
+    commits:
+      - sha1: 5c6d6ea498b95f6b6f8144c4c15e5a9e778f332d
+        time: '2017-10-17T19:39:52Z'
+      - sha1: e63a33c70bac62cabf7184f680509bbe18e6a29f
+        time: '2017-10-18T07:39:50Z'
+    release: 2017c
+
+  - country: FJ
+    zones:
+      - Pacific/Fiji
+    description: "Fiji ends DST on 2018-01-14 at 03:00, not 2018-01-21."
+    effective: '2018-01-13T14:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2017-August/025233.html'
+      time: '2017-08-20T23:27:24Z'
+    commits:
+      - sha1: dace43e7e0d53fa4902fcd100f5c3c7725569cce
+        time: '2017-08-21T09:19:17Z'
+    release: 2017c
+
+  - country: NA
+    zones:
+      - Africa/Windhoek
+    description: "Namibia switches from +01/+02 to +02 on 2017-09-03 at 02:00, affecting UT offsets from 2018-04-01 at 02:00."
+    effective: '2018-04-01T00:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2017-August/025216.html'
+      time: '2017-08-09T12:47:38Z'
+    commits:
+      - sha1: 5b0152b68b85e2af1bc0f83113c5725d0cdcfb1a
+        time: '2017-08-10T00:14:39Z'
+    release: 2017c
+
+  - country: TC
+    zones:
+      - America/Grand_Turk
+    description: "Turks & Caicos switches from -04 to -05/-04 on 2018-03-11 at 03:00, affecting UT offsets from 2018-11-04 at 02:00."
+    effective: '2018-11-04T06:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2017-July/025201.html'
+      time: '2017-07-23T01:14:59Z'
+    commits:
+      - sha1: b73c016c54b4fbe6734404d5c28d516e21542c62
+        time: '2017-08-10T00:32:22Z'
+      - sha1: 8792d7bed2c684cf842592fd7779645f335a33f6
+        time: '2017-08-26T07:53:58Z'
+    release: 2017c
+
+  - country: HT
+    zones:
+      - America/Port-au-Prince
+    description: "Haiti resumed observance of DST on 2017-03-12 at 02:00."
+    effective: '2017-03-12T07:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2017-March/024903.html'
+      time: '2017-03-12T14:51:05Z'
+    commits:
+      - sha1: ed158c64982717e6b04f67262d3bdba71e4976fa
+        time: '2017-03-12T19:14:27Z'
+    release: 2017b
+
+  - country: MO
+    zones:
+      - Asia/Hovd
+      - Asia/Ulaanbaatar
+      - Asia/Choibalsan
+    description: "Mongolia no longer observes DST, affecting UT offsets from 2017-03-25 at 02:00."
+    effective: '2017-03-24T18:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2017-February/024811.html'
+      time: '2017-02-08T17:42:23Z'
+    commits:
+      - sha1: 79719678366047477f4d660cb22ddf9154d1f4b4
+        time: '2017-02-08T17:40:15Z'
+    release: 2017a

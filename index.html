@@ -1,0 +1,24 @@
+---
+layout: default
+title: tzdata-meta
+---
+
+<h1>{{page.title}}</h1>
+
+{% include scope.html %}
+
+<h2>Metadata by year</h2>
+<p>
+Changes are filed under the year in which notice was first sent to the
+<code>tz</code> discussion list:
+</p>
+<ul>
+{% for year in (2016..2019) reversed %}
+  <li><a href="metadata/{{ year }}">{{ year }}</a></li>
+{% endfor %}
+</ul>
+<p>
+Earlier changes are not within the scope of this project.
+</p>
+
+{% include footer.html %}

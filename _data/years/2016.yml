@@ -1,0 +1,327 @@
+year: '2016'
+changes:
+  - country: CL
+    zones:
+      - America/Punta_Arenas
+    description: "Chile's Region of Magallanes moves from -04/-03 to -03 year-round, diverging from America/Santiago on 2017-05-13 at 23:00."
+    effective: '2017-05-14T03:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-December/024631.html'
+      time: '2016-12-04T14:24:16Z'
+    commits:
+      - sha1: 075ad7016e4519cab9728fd248e79ce50637ddd6 
+        time: '2016-12-05T08:34:57Z'
+    release: 2017a
+
+  - country: RU
+    zones:
+      - Europe/Saratov
+    description: "Saratov, Russia switches from +03 to +04 on 2016-12-04 at 02:00, diverging from Europe/Volgograd."
+    effective: '2016-12-04T05:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-November/024549.html'
+      time: '2016-11-11T16:07:30Z'
+    commits:
+      - sha1: 7c041fd1d1fe9b269954f10638b4409a24e6fa7f
+        time: '2016-11-11T17:53:19Z'
+      - sha1: 3516f21de1da85e8f619b36f51f2c01345e20259
+        time: '2016-11-11T20:01:27Z'
+    release: 2016j
+
+  - country: CY
+    zones:
+      - Asia/Famagusta
+    description: "Northern Cyprus is now +03 year-round, causing a split in Cyprus time zones starting 2016-10-30 at 04:00."
+    effective: '2016-10-30T01:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-October/024394.html'
+      time: '2016-10-30T22:24:53Z'
+    commits:
+      - sha1: 9512688369a3b380cfa8b0ec68cca782f19b88df
+        time: '2016-09-09T08:25:33Z'
+      - sha1: 4d5950cb730916c16717afe3fec286731a45c306
+        time: '2016-09-12T06:54:45Z'
+      - sha1: 229c692cb9d1c4160a3e6f4839bfdcc89fa00dac
+        time: '2016-10-31T06:56:42Z'
+    release: 2016i
+    notes: "The initial commit was quickly reverted pending further clarity, due to the UN Peacekeeping Force becoming involved in the situation."
+
+  - country: AQ
+    zones:
+      - Antarctica/Casey
+    description: "Antarctica/Casey switched from +08 to +11 in the morning of 2016-10-22.  Assume 00:00."
+    effective: '2016-10-21T16:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-October/024388.html'
+      time: '2016-10-28T06:09:33Z'
+    commits:
+      - sha1: 1cb94d0c975b02293dd81a2f8746d49421091f4e
+        time: '2016-10-30T19:53:42Z'
+    release: 2016i
+
+  - country: TO
+    zones:
+      - Pacific/Tongatapu
+    description: "Tonga begins DST on 2016-11-06 at 02:00."
+    effective: '2016-11-05T13:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-October/024384.html'
+      time: '2016-10-27T00:07:28Z'
+    commits:
+      - sha1: 6d0fe8a09132628883e48dd4a94f553b4f277dcf
+        time: '2016-10-26T11:42:47Z'
+    release: 2016i
+
+  - country: PS
+    zones:
+      - Asia/Gaza
+      - Asia/Hebron
+    description: "Asia/Gaza and Asia/Hebron end DST on 2016-10-29 at 01:00, not 2016-10-21 at 00:00."
+    effective: '2016-10-20T21:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-October/024320.html'
+      time: '2016-10-19T09:38:08Z'
+    commits:
+      - sha1: 50fe6819923eb100e859a98c922fef824729eda0
+        time: '2016-10-19T21:13:22Z'
+    release: 2016h
+
+  - country: TR
+    zones:
+      - Europe/Istanbul
+    description: "Turkey switched from EET/EEST (+02/+03) to permanent +03, affecting timestamps from 2016-10-30 04:00."
+    effective: '2016-10-30T01:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-September/024095.html'
+      time: '2016-09-08T05:56:35Z'
+    commits:
+      - sha1: 3e31dbe52b8730ed762880e88bf4c68ac00b8cc3
+        time: '2016-09-08T06:35:52Z'
+    release: 2016g
+
+  - country: EG
+    zones:
+      - Africa/Cairo
+    description: "The Egyptian government changed its mind on short notice, and Africa/Cairo will not introduce DST starting on 2016-07-07 at 24:00 after all."
+    effective: '2016-07-07T22:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-July/023849.html'
+      time: '2016-07-04T10:51:10Z'
+    commits:
+      - sha1: 868f3528a9fd60491439ce457f6d68dc12ef425b
+        time: '2016-07-05T14:20:19Z'
+    release: 2016f
+
+  - country: RU
+    zones:
+      - Asia/Novosibirsk
+    description: "Asia/Novosibirsk switches from +06 to +07 on 2016-07-24 at 02:00."
+    effective: '2016-07-23T20:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-June/023815.html'
+      time: '2016-06-17T20:19:17Z'
+    commits:
+      - sha1: a615398bf7efd9ee1e56db8792efa901be44559d
+        time: '2016-06-20T00:32:50Z'
+    release: 2016f
+
+  - country: EG
+    zones:
+      - Africa/Cairo
+    description: "Africa/Cairo observes DST in 2016 from 2016-07-07 to \"the end of October\".  Guess 2016-10-27 and 24:00 transitions."
+    effective: '2016-07-07T22:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-April/023614.html'
+      time: '2016-04-29T06:24:04Z'
+    commits:
+      - sha1: 41fb31994bc3f90b927f3f2af02519b92f948408
+        time: '2016-04-29T15:28:16Z'
+    release: 2016e
+
+  - country: VE
+    zones:
+      - America/Caracas
+    description: "America/Caracas switches from -0430 to -04 on 2016-05-01 at 02:30."
+    effective: '2016-05-01T07:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-April/023548.html'
+      time: '2016-04-15T01:14:03Z'
+    commits:
+      - sha1: beeef283b7cc0f68566e7aaf2b2033d49337896d
+        time: '2016-04-15T20:03:58Z'
+    release: 2016d
+
+  - country: RU
+    zones:
+      - Asia/Tomsk
+    description: "New zone Asia/Tomsk, covering Tomsk Oblast, Russia, which switches from +06 to +07 on 2016-05-29 at 02:00, diverging from Asia/Novosibirsk."
+    effective: '2016-05-28T20:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-April/023543.html'
+      time: '2016-04-12T19:12:07Z'
+    commits:
+      - sha1: 4f6afb404d298fd1437e25d2859665df81591ced
+        time: '2016-04-13T08:01:09Z'
+    release: 2016d
+    notes: "This commit uncommented the new Zone originally drafted on 2016-03-18."
+
+  - country: RU
+    zones:
+      - Asia/Magadan
+    description: "Asia/Magadan switches from +10 to +11 on 2016-04-24 at 02:00."
+    effective: '2016-04-23T16:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-March/023504.html'
+      time: '2016-03-27T05:31:06Z'
+    commits:
+      - sha1: a18818ff6c4af8d6bea20d94be2b12e4b336f5a3
+        time: '2016-03-27T06:24:03Z'
+    release: 2016d
+    notes: "This commit uncommented new data lines originally drafted on 2016-03-18."
+
+  - country: AZ
+    zones:
+      - Asia/Baku
+    description: "Azerbaijan no longer observes DST, affecting timestamps from 2016-03-27 at 04:00."
+    effective: '2016-03-27T00:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-March/023453.html'
+      time: '2016-03-17T13:24:50Z'
+    commits:
+      - sha1: e2804e9c287ad97462ee595c76f01858509d4cf0
+        time: '2016-03-17T20:28:21Z'
+    release: 2016c
+
+  - country: CL
+    zones:
+      - America/Santiago
+      - Pacific/Easter
+      - Antarctica/Palmer
+    description: "Chile reverts from permanent to seasonal DST.  Guess that future transitions are August's and May's second Saturdays at 24:00 mainland time, affecting timestamps from 2016-05-14 at 24:00 mainland time."
+    effective: '2016-05-15T03:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-March/023434.html'
+      time: '2016-03-13T15:54:43Z'
+    commits:
+      - sha1: 1b2c46e15cb694148b06d6f5f7fffec85f01e667
+        time: '2016-03-17T21:14:35Z'
+    release: 2016c
+
+  - country: HT
+    zones:
+      - America/Port-au-Prince
+    description: "Haiti will not observe DST in 2016, affecting timestamps from 2016-03-13 at 02:00."
+    effective: '2016-03-13T07:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-March/023401.html'
+      time: '2016-03-12T14:05:49Z'
+    commits:
+      - sha1: e66b15f3f4c340f2a92931361ab7c4ea23f090a5
+        time: '2016-03-12T17:24:26Z'
+    release: 2016b
+
+  - country: PS
+    zones:
+      - Asia/Gaza
+      - Asia/Hebron
+    description: "Palestine's spring-forward transition on 2016-03-26 is at 01:00, not 00:00."
+    effective: '2016-03-11T22:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-March/023368.html'
+      time: '2016-03-09T09:40:37Z'
+    commits:
+      - sha1: 13cdd643d625627125a0ddfe7bb6c7f084e9f293
+        time: '2016-03-12T17:08:37Z'
+    release: 2016b
+
+  - country: RU
+    zones:
+      - Asia/Sakhalin
+    description: "Asia/Sakhalin moves from +10 to +11 on 2016-03-27 at 02:00."
+    effective: '2016-03-26T16:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-February/023276.html'
+      time: '2016-02-23T00:00:52Z'
+    commits:
+      - sha1: 50e017c2bfa16dade5132faca177726d04a365f0
+        time: '2016-02-23T09:26:13Z'
+    release: 2016b
+
+  - country: RU
+    zones:
+      - Europe/Ulyanovsk
+    description: "New zone Europe/Ulyanovsk for Ulyanovsk Oblast, Russia, which will switch from +03 to +04 on 2016-03-27 at 02:00."
+    effective: '2016-03-26T23:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-February/023207.html'
+      time: '2016-02-17T19:37:07Z'
+    commits:
+      - sha1: c333e506cfabb2209009f0a6c80c53b32861132a
+        time: '2016-02-22T07:06:12Z'
+    release: 2016b
+
+  - country: RU
+    zones:
+      - Asia/Barnaul
+    description: "New zone Asia/Barnaul for Altai Krai and Altai Republic, Russia, which will switch from +06 to +07 on 2016-03-27 at 02:00."
+    effective: '2016-03-26T20:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-February/023207.html'
+      time: '2016-02-17T19:37:07Z'
+    commits:
+      - sha1: c333e506cfabb2209009f0a6c80c53b32861132a
+        time: '2016-02-22T07:06:12Z'
+    release: 2016b
+
+  - country: RU
+    zones:
+      - Europe/Astrakhan
+    description: "New zone Europe/Astrakhan for Astrakhan Oblast, Russia, which will switch from +03 to +04 on 2016-03-27 at 02:00."
+    effective: '2016-03-26T23:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-February/023109.html'
+      time: '2016-02-12T19:29:50Z'
+    commits:
+      - sha1: b0cce1253a85863e1b6573223d8db323c639916a
+        time: '2016-02-22T06:07:13Z'
+    release: 2016b
+
+  - country: KY
+    zones:
+      - America/Cayman
+    description: "The Cayman Islands will not observe DST this year after all, affecting timestamps from 2016-03-13 at 02:00."
+    effective: '2016-03-13T07:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-January/023101.html'
+      time: '2016-01-25T16:45:12Z'
+    commits:
+      - sha1: 980c1ea5f18260a5eee9b32f4ea185ad22eec844
+        time: '2016-01-25T18:04:14Z'
+    release: 2016a
+
+  - country: RU
+    zones:
+      - Asia/Chita
+    description: "Asia/Chita switches from +08 to +09 on 2016-03-27 at 02:00."
+    effective: '2016-03-26T18:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2016-January/023042.html'
+      time: '2016-01-02T16:06:56Z'
+    commits:
+      - sha1: dbacd2714e5171612ebe97dee23aba0d9deda8f3
+        time: '2016-01-02T19:02:13Z'
+    release: 2016a
+
+  # One other relevant change was published in 2016; however, first notice was sent in 2015:
+  #- country: US
+  #  zones:
+  #    - America/Metlakatla
+  #  description: "America/Metlakatla switched from year-round PST (-08) to AKST/AKDT on 2015-11-01 at 02:00."
+  #  effective: '2015-11-01T10:00:00Z'
+  #  notice:
+  #    url: 'https://mm.icann.org/pipermail/tz/2015-November/022932.html'
+  #    time: '2015-11-09T13:34:37Z'
+  #  commits:
+  #    - sha1: 5452ea663bc47939e312d0180a3cb936704e07b0
+  #      time: '2015-11-09T15:53:07Z'
+  #  release: 2016a
