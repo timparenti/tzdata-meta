@@ -1,9 +1,23 @@
 year: '2019'
 changes:
+  - country: PS
+    zones:
+      - Asia/Gaza
+      - Asia/Hebron
+    description: "Palestine starts DST a week later in 2019, on 2019-03-30 at 01:00."
+    effective: '2019-03-22T23:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2019-March/027801.html'
+      time: '2019-03-23T17:10:23Z'
+    commits:
+      - sha1: 7a133ff92ecf7a48fbd31db03f5910b74daca26e
+        time: '2019-03-24T00:16:21Z'
+    release: 2019a
+
   - country: US
     zones:
       - America/Metlakatla
-    description: "Metlakatla, Alaska will return to Alaska Time with DST on 2019-01-20 at 02:00, ot 2019-03-10 as previously predicted."
+    description: "Metlakatla, Alaska will return to Alaska Time with DST on 2019-01-20 at 02:00, not 2019-03-10 as previously predicted."
     effective: '2019-01-20T10:00:00Z'
     notice:
       url: 'https://mm.icann.org/pipermail/tz/2019-January/027387.html'
@@ -11,3 +25,4 @@ changes:
     commits:
       - sha1: f18c24d6686a6e6eae2478c1bbaf19861179715c
         time: '2019-01-11T19:35:37Z'
+    release: 2019a
