@@ -18,4 +18,5 @@ as well as [commits to the `tz` development repository](https://github.com/egger
 Pull requests will *NOT* be accepted for a given timezone change until
 it has been proposed to the `tz` mailing list at [tz@iana.org](mailto:tz@iana.org),
 discussed as necessary,
-and committed to the `tz` development repository.
+committed to the `tz` development repository,
+and (in general) released.
