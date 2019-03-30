@@ -1,6 +1,7 @@
 # This file is meant to represent the ISO 3166-1 standard.  Do NOT propose pull
 # requests to change this data, except to reflect changes which have been made
-# in the ISO 3166-1 standard.
+# in the ISO 3166-1 standard as listed at https://www.iso.org/obp/ui/#iso:pub:PUB500001:en
+# This file uses the "short English name", omitting leading "the" where it occurs.
 AD:
   name: Andorra
   emoji: 🇦🇩
@@ -119,7 +120,7 @@ CC:
   name: Cocos (Keeling) Islands
   emoji: 🇨🇨
 CD:
-  name: Congo, Democratic Republic of the
+  name: Congo (Democratic Republic of the)
   emoji: 🇨🇩
 CF:
   name: Central African Republic
@@ -365,7 +366,7 @@ KP:
   name: Korea (Democratic People's Republic of)
   emoji: 🇰🇵
 KR:
-  name: Korea, Republic of
+  name: Korea (Republic of)
   emoji: 🇰🇷
 KW:
   name: Kuwait
@@ -416,7 +417,7 @@ MC:
   name: Monaco
   emoji: 🇲🇨
 MD:
-  name: Moldova, Republic of
+  name: Moldova (Republic of)
   emoji: 🇲🇩
 ME:
   name: Montenegro
@@ -431,7 +432,7 @@ MH:
   name: Marshall Islands
   emoji: 🇲🇭
 MK:
-  name: Macedonia, the former Yugoslav Republic of
+  name: North Macedonia
   emoji: 🇲🇰
 ML:
   name: Mali
@@ -683,10 +684,10 @@ TV:
   name: Tuvalu
   emoji: 🇹🇻
 TW:
-  name: Taiwan, Province of China
+  name: Taiwan (Province of China)
   emoji: 🇹🇼
 TZ:
-  name: Tanzania, United Republic of
+  name: Tanzania (United Republic of)
   emoji: 🇹🇿
 UA:
   name: Ukraine
