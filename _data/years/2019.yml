@@ -1,5 +1,20 @@
 year: '2019'
 changes:
+  - country: BR
+    zones:
+      - America/Sao_Paulo
+      - America/Campo_Grande
+      - America/Cuiaba
+    description: "Brazil has cancelled DST and will not change clocks on 2019-11-03, instead staying on standard time indefinitely."
+    effective: '2019-11-03T03:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2019-April/027875.html'
+      time: '2019-04-25T15:39:11Z'
+    commits:
+      - sha1: 8d1bcf9425ead6fd3447a658b20a8bb8a385228d
+        time: '2019-04-25T21:35:11Z'
+    release: 2019b
+
   - country: PS
     zones:
       - Asia/Gaza
@@ -13,6 +28,7 @@ changes:
       - sha1: 7a133ff92ecf7a48fbd31db03f5910b74daca26e
         time: '2019-03-24T00:16:21Z'
     release: 2019a
+    notes: "Ambiguity in the transition time became apparent shortly after release.  It was later determined that this change actually took place on 2019-03-29 at 00:00, which was updated in 2019b."
 
   - country: US
     zones:
