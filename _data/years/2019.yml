@@ -1,5 +1,31 @@
 year: '2019'
 changes:
+  - country: NF
+    zones:
+      - Pacific/Norfolk
+    description: "Norfolk Island will observe Australian-style DST starting in spring 2019.  The first transition is on 2019-10-06."
+    effective: '2019-10-05T15:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2019-August/028420.html'
+      time: '2019-08-14T11:34:13Z'
+    commits:
+      - sha1: 1050999f9fef7e187051a12438efac2a3bb18507
+        time: '2019-08-14T17:38:28Z'
+    release: 2019c
+
+  - country: FJ
+    zones:
+      - Pacific/Fiji
+    description: "Fiji's next DST transitions will be 2019-11-10 and 2020-01-12 instead of 2019-11-03 and 2020-01-19."
+    effective: '2019-11-02T14:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2019-August/028402.html'
+      time: '2019-08-06T03:25:22Z'
+    commits:
+      - sha1: 03bf34820f37a089e2e17fc0444661429fb12843
+        time: '2019-08-06T16:41:18Z'
+    release: 2019c
+
   - country: BR
     zones:
       - America/Sao_Paulo
