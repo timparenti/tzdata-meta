@@ -1,0 +1,29 @@
+year: '2020'
+changes:
+  - country: MA
+    zones:
+      - Africa/Casablanca
+      - Africa/El_Aaiun
+    description: "Morocco springs forward after Ramadan on 2020-05-31, not 2020-05-24."
+    effective: '2020-05-24T02:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2020-April/028937.html'
+      time: '2020-04-14T14:49:13Z'
+    commits:
+      - sha1: f9aacafa4f15be6e7ff4436164e14d8f08839ac7
+        time: '2020-04-15T05:20:53Z'
+    release: 2020a
+
+  - country: CA
+    zones:
+      - America/Dawson
+      - America/Whitehorse
+    description: "Yukon advances to year-round -07 from 2020-03-08 by not falling back on 2020-11-01."
+    effective: '2020-11-01T09:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2020-March/028856.html'
+      time: '2020-03-05T03:53:17Z'
+    commits:
+      - sha1: e6c1f0e7daa0b6c5131b2976c6be9190845d2b49
+        time: '2020-03-05T22:47:56Z'
+    release: 2020a
