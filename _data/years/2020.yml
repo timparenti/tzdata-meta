@@ -1,5 +1,18 @@
 year: '2020'
 changes:
+  - country: AQ
+    zones:
+      - Antarctica/Casey
+    description: "Casey switches from +08 to +11 for summer from 2020-10-04 00:01."
+    effective: '2020-10-03T16:01:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2020-October/029293.html'
+      time: '2020-10-02T06:03:49Z'
+    commits:
+      - sha1: 6427fe6c0cca1dc0f8580f8b96348911ad051570
+        time: '2020-10-02T06:59:18Z'
+    release: 2020b
+
   - country: MA
     zones:
       - Africa/Casablanca
