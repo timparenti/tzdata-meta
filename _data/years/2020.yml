@@ -1,5 +1,32 @@
 year: '2020'
 changes:
+  - country: PS
+    zones:
+      - Asia/Gaza
+      - Asia/Hebron
+    description: "Palestine ends DST a week earlier in 2020, on 2020-10-24 at 01:00."
+    effective: '2020-10-23T22:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2020-October/029376.html'
+      time: '2020-10-20T08:00:04Z'
+    commits:
+      - sha1: efd0231aa7a68ec431ce99251d2496a0eed624ec
+        time: '2020-10-20T14:53:09Z'
+    release: 2020d
+
+  - country: FJ
+    zones:
+      - Pacific/Fiji
+    description: "Fiji starts DST later than usual, on 2020-12-20."
+    effective: '2020-11-07T14:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2020-October/029310.html'
+      time: '2020-10-08T04:45:16Z'
+    commits:
+      - sha1: d5c1b97cd1eb0af1711af415bbd677b0510c718b
+        time: '2020-10-08T21:52:53Z'
+    release: 2020c
+
   - country: AQ
     zones:
       - Antarctica/Casey
