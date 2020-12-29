@@ -6,7 +6,7 @@ changes:
       - America/Campo_Grande
       - America/Cuiaba
     description: "Brazil delays DST start by two weeks or so, to 2018-11-04 at 00:00."
-    effective: '2018-11-04T03:00:00Z'
+    effective: '2018-10-21T03:00:00Z'
     notice:
       url: 'https://mm.icann.org/pipermail/tz/2017-December/025779.html'
       time: '2017-12-18T10:22:58Z'

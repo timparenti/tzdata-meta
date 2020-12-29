@@ -3,7 +3,7 @@ changes:
   - country: CL
     zones:
       - America/Punta_Arenas
-    description: "Chile's Region of Magallanes moves from -04/-03 to -03 year-round, diverging from America/Santiago on 2017-05-13 at 23:00."
+    description: "Chile's Region of Magallanes moves from -04/-03 to -03 year-round, diverging from America/Santiago when it falls back on 2017-05-13 at 24:00."
     effective: '2017-05-14T03:00:00Z'
     notice:
       url: 'https://mm.icann.org/pipermail/tz/2016-December/024631.html'
@@ -225,7 +225,7 @@ changes:
       - Asia/Gaza
       - Asia/Hebron
     description: "Palestine's spring-forward transition on 2016-03-26 is at 01:00, not 00:00."
-    effective: '2016-03-11T22:00:00Z'
+    effective: '2016-03-25T23:00:00Z'
     notice:
       url: 'https://mm.icann.org/pipermail/tz/2016-March/023368.html'
       time: '2016-03-09T09:40:37Z'

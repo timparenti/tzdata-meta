@@ -59,8 +59,8 @@ changes:
     zones:
       - Africa/Casablanca
       - Africa/El_Aaiun
-    description: "Morocco switches to permanent +01 on 2018-10-28 at 00:00."
-    effective: '2018-10-27T23:00:00Z'
+    description: "Morocco switches to permanent +01 by not falling back on 2018-10-28."
+    effective: '2018-10-28T02:00:00Z'
     notice:
       url: 'https://mm.icann.org/pipermail/tz/2018-October/027099.html'
       time: '2018-10-26T10:57:54Z'
@@ -116,8 +116,8 @@ changes:
     zones:
       - America/Santiago
       - Pacific/Easter
-    description: "Most of Chile changes DST dates, effective 2019-04-06 at 03:00 UTC."
-    effective: '2019-04-06T03:00:00Z'
+    description: "Most of Chile changes DST dates, effective 2019-04-07 at 03:00 UTC."
+    effective: '2019-04-07T03:00:00Z'
     notice:
       url: 'https://mm.icann.org/pipermail/tz/2018-August/026745.html'
       time: '2018-08-13T14:01:44Z'
@@ -193,21 +193,5 @@ changes:
         time: '2018-01-08T17:03:13Z'
       - sha1: a4272fbf28192d2c6e6d7ef0c6b83aae83dbed4b
         time: '2018-01-09T00:12:21Z'
-    release: 2018c
-    notes: "This change was tagged earlier in 2018a and 2018b, which were never officially released."
-
-  - country: BR
-    zones:
-      - America/Sao_Paulo
-      - America/Campo_Grande
-      - America/Cuiaba
-    description: "Brazil delays DST start by two weeks or so, to 2018-11-04 at 00:00."
-    effective: '2018-11-04T03:00:00Z'
-    notice:
-      url: 'https://mm.icann.org/pipermail/tz/2017-December/025779.html'
-      time: '2017-12-18T10:22:58Z'
-    commits: 
-      - sha1: 13849c314693c27679f21226c1cb14d7153c03c2
-        time: '2017-12-19T19:53:44Z'
     release: 2018c
     notes: "This change was tagged earlier in 2018a and 2018b, which were never officially released."

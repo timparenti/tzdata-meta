@@ -3,7 +3,7 @@ changes:
   - country: RU
     zones:
       - Europe/Volgograd
-    description: "Volgograd switches to Moscow time on 2020-12-27 at 02:00."
+    description: "Volgograd switches from +04 to +03 to rejoin Moscow time on 2020-12-27 at 02:00."
     effective: '2020-12-26T22:00:00Z'
     notice:
       url: 'https://mm.icann.org/pipermail/tz/2020-November/029525.html'
