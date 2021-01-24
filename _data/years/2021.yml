@@ -1,0 +1,14 @@
+year: '2021'
+changes:
+  - country: SS
+    zones:
+      - Africa/Juba
+    description: "South Sudan changes from +03 to +02 on 2021-02-01 at 00:00."
+    effective: '2021-01-31T21:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2021-January/029693.html'
+      time: '2021-01-18T14:15:54Z'
+    commits:
+      - sha1: 7d7a4fb5bdaf778d48903b56d4200dd84282238e
+        time: '2021-01-19T21:17:42Z'
+    release: 2021a
