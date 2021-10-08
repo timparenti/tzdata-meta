@@ -14,7 +14,7 @@ For more information, please read Matt Johnson's 2016-04-23 blog post,
 
 The metadata compiled herewithin is secondary to the `tz` repository,
 and is derived from the [archives of the `tz` discussion list](https://mm.icann.org/pipermail/tz/)
-as well as [commits to the `tz` development repository](https://github.com/eggert/tz/commits/master).
+as well as [commits to the `tz` development repository](https://github.com/eggert/tz/commits/main).
 Pull requests will *NOT* be accepted for a given timezone change until
 it has been proposed to the `tz` mailing list at [tz@iana.org](mailto:tz@iana.org),
 discussed as necessary,
