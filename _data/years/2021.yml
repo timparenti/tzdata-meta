@@ -1,5 +1,31 @@
 year: '2021'
 changes:
+  - country: JO
+    zones:
+      - Asia/Amman
+    description: "Jordan begins DST a month earlier starting on 2022-02-24 at 24:00."
+    effective: '2022-02-24T22:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2021-September/030687.html'
+      time: '2021-09-24T09:09:05Z'
+    commits:
+      - sha1: 39df8c8b22605f59f71213cfb92b3fd321e31d3c
+        time: '2021-09-24T14:46:19Z'
+    release: 2021b
+
+  - country: WS
+    zones:
+      - Pacific/Apia
+    description: "Samoa cancels DST and will not spring forward on 2021-09-26 at 03:00."
+    effective: '2021-09-25T14:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2021-September/030397.html'
+      time: '2021-09-20T05:11:03Z'
+    commits:
+      - sha1: 29583c461a9705118560e02e69bb64a0bf2fce0c
+        time: '2021-09-20T07:23:09Z'
+    release: 2021b
+
   - country: SS
     zones:
       - Africa/Juba
