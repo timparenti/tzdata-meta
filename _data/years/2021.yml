@@ -1,5 +1,18 @@
 year: '2021'
 changes:
+  - country: FJ
+    zones:
+      - Pacific/Fiji
+    description: "Fiji suspends DST for the 2021/2022 season and will not spring forward on 2021-11-14 at 02:00."
+    effective: '2021-11-13T14:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2021-October/030967.html'
+      time: '2021-10-11T01:04:45Z'
+    commits:
+      - sha1: f74940d9686a8179c9c99ed8b30ab736e1a0be1f
+        time: '2021-10-11T17:57:17Z'
+    release: 2021d
+
   - country: JO
     zones:
       - Asia/Amman
