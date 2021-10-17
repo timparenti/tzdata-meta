@@ -23,7 +23,7 @@ layout: default
     <th>Earliest effective date for UTC offset changes</th>
     <th>Initial notice sent to <a href="https://mm.icann.org/pipermail/tz/" target="_blank"><code>tz</code> discussion list</a></th>
     <th>Commits to <a href="https://github.com/eggert/tz" target="_blank">development repository</a></th>
-    <th><code>tz</code> release</th>
+    <th><code>tz</code> release <a href="https://mm.icann.org/pipermail/tz-announce/" target="_blank">announced</a></th>
     <th width="15%">Notes</th>
   </tr>
 
@@ -34,7 +34,7 @@ layout: default
   {%- assign notice_ts = change.notice.time | date: "%s" -%}
   {%- assign commit_ts = change.commits.last.time | date: "%s" -%}
   {%- assign tag_ts = site.data.tz_releases[change.release].tagged | date: "%s" -%}
-  {%- assign release_ts = site.data.tz_releases[change.release].released | date: "%s" -%}
+  {%- assign release_ts = site.data.tz_releases[change.release].announced | date: "%s" -%}
 
   {%- if notice_ts > effective_ts -%}
     {%- assign notice_delta_sign = "&minus;" -%}
@@ -98,7 +98,7 @@ layout: default
     <td style="font-size: 70%;">
       {%- if change.release -%}
         <a href="https://github.com/eggert/tz/releases/tag/{{ change.release }}" target="_blank"><strong>{{ change.release }}</strong></a><br>
-        <nobr>{{ site.data.tz_releases[change.release].released }}</nobr>
+        <nobr>{{ site.data.tz_releases[change.release].announced }}</nobr>
         <hr style="margin: 0;">
         Leadtime: {{ release_delta_sign }}{{ release_delta_days }}d, {{ release_delta_hours }}h
       {%- else -%}
