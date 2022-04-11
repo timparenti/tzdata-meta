@@ -98,6 +98,7 @@ changes:
       - sha1: efda0562d7fc7bc90b6cab76998fab8b4953e056
         time: '2018-10-04T15:24:15Z'
     release: 2018f
+    notes: "This change was canceled before it could be released."
 
   - country: RU
     zones:
