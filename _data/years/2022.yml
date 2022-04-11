@@ -1,0 +1,15 @@
+year: '2022'
+changes:
+  - country: PS
+    zones:
+      - Asia/Gaza
+      - Asia/Hebron
+    description: "Palestine springs forward a day later, on 2022-03-27 at 00:00."
+    effective: '2022-03-25T22:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2022-March/031220.html'
+      time: '2022-03-10T12:50:24Z'
+    commits:
+      - sha1: f4b156691e1dcf23f35eb8ce018d468983a17bec
+        time: '2022-03-10T19:21:39Z'
+    release: 2022a
