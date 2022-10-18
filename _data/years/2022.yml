@@ -1,5 +1,74 @@
 year: '2022'
 changes:
+  - country: JO
+    zones:
+      - Asia/Amman
+    description: "Jordan advances to year-round +03 by not falling back on 2022-10-28."
+    effective: '2022-10-27T21:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2022-October/032000.html'
+      time: '2022-10-05T09:35:56Z'
+    commits:
+      - sha1: 3aa74b7f79a3df2f92b563a515a7e24fa175a2eb
+        time: '2022-10-06T00:55:04Z'
+    release: 2022e
+
+  - country: SY
+    zones:
+      - Asia/Damascus
+    description: "Syria advances to year-round +03 by not falling back on 2022-10-28."
+    effective: '2022-10-27T21:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2022-October/031996.html'
+      time: '2022-10-05T09:03:55Z'
+    commits:
+      - sha1: 59aa97e8e9e3744a06cb004946a104824a5234c2
+        time: '2022-10-06T00:17:05Z'
+    release: 2022e
+
+  - country: PS
+    zones:
+      - Asia/Gaza
+      - Asia/Hebron
+    description: "Palestine's DST transitions are now at 02:00 on the Saturday before the final Sunday in March and October."
+    effective: '2022-10-27T22:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2022-August/031887.html'
+      time: '2022-08-30T06:36:18Z'
+    commits:
+      - sha1: c42d108da5a95cd0432bfeeff35498d695d09da8
+        time: '2022-08-30T17:45:52Z'
+      - sha1: 1a0e30a84b2f76663123a4555c2785b450ce06f1
+        time: '2022-08-31T21:58:10Z'
+    release: 2022d
+
+  - country: CL
+    zones:
+      - America/Santiago
+      - Pacific/Easter
+    description: "Chile's DST is delayed by a week from 2022-09-04 to 2022-09-11."
+    effective: '2022-09-04T04:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2022-August/031773.html'
+      time: '2022-08-09T13:18:39Z'
+    commits:
+      - sha1: 711b46f8fc4e8a3d5caf7d4820562d6cdfe9d769
+        time: '2022-08-09T14:02:19Z'
+    release: 2022b
+
+  - country: IR
+    zones:
+      - Asia/Tehran
+    description: "Iran will stop observing DST in 2023 by last falling back on 2022-09-21 at 24:00."
+    effective: '2023-03-21T20:30:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2022-May/031400.html'
+      time: '2022-05-10T17:53:14Z'
+    commits:
+      - sha1: 66b18d9835dda089d65349c86e7851c4f0746e09
+        time: '2022-05-10T22:39:01Z'
+    release: 2022b
+
   - country: PS
     zones:
       - Asia/Gaza
