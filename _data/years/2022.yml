@@ -1,5 +1,49 @@
 year: '2022'
 changes:
+  - country: MX
+    zones:
+      - America/Bahia_Banderas 
+      - America/Mazatlan
+      - America/Merida
+      - America/Mexico_City
+      - America/Monterrey
+    description: "Most of Mexico, excluding areas near the US border, will stop observing DST after falling back on 2022-10-30."
+    effective: '2023-04-02T08:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2022-October/032147.html'
+      time: '2022-10-28T22:56:50Z'
+    commits:
+      - sha1: 2050724fa1144bacb0d35c7cd9b862da858406c4
+        time: '2022-10-29T00:57:48Z'
+    release: 2022f
+
+  - country: MX
+    zones:
+      - America/Chihuahua
+      - America/Ojinaga
+    description: "All of Chihuahua, including areas near the US border, moves to year-round -06 by not falling back on 2022-10-30 or 2022-11-06."
+    effective: '2022-10-30T08:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2022-October/032147.html'
+      time: '2022-10-28T22:56:50Z'
+    commits:
+      - sha1: 2050724fa1144bacb0d35c7cd9b862da858406c4
+        time: '2022-10-29T00:57:48Z'
+    release: 2022f
+
+  - country: FJ
+    zones:
+      - Pacific/Fiji
+    description: "Fiji again suspends DST for the 2022/2023 season and will not spring forward on 2022-11-13 at 02:00.  Assume DST is suspended indefinitely."
+    effective: '2022-11-12T14:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2022-October/032116.html'
+      time: '2022-10-27T07:41:59Z'
+    commits:
+      - sha1: 918650731803579659fa6b5eedf3f80310afc59f
+        time: '2022-10-27T16:51:13Z'
+    release: 2022f
+
   - country: JO
     zones:
       - Asia/Amman
