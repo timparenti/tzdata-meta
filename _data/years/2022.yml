@@ -2,7 +2,36 @@ year: '2022'
 changes:
   - country: MX
     zones:
-      - America/Bahia_Banderas 
+      - America/Ciudad_Juarez
+      - America/Ojinaga
+    description: "The northern edge of Chihuahua resumes US DST rules.  New zone America/Ciudad_Juarez for the western half, which rejoins -07 from 2022-11-30."
+    effective: '2022-11-30T06:00:00ZZ'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2022-November/032358.html'
+      time: '2022-11-27T20:06:41Z'
+    commits:
+      - sha1: b92f566d69a5fdf5b2b394d5343149344325baf7
+        time: '2022-11-29T16:48:19Z'
+    release: 2022g
+
+  - country: GL
+    zones:
+      - America/Nuuk
+    description: "Much of Greenland stops switching clocks after 2023-03-25 and advances to year-round -02."
+    effective: '2023-10-29T01:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2022-November/032343.html'
+      time: '2022-11-25T09:51:59Z'
+    commits:
+      - sha1: 2fb29226487e83979f2b674688f4c1127314986e
+        time: '2022-11-25T17:44:14Z'
+      - sha1: 36acd567fbd8df3e085351bec36974fde035e0f0
+        time: '2022-11-29T02:19:02Z'
+    release: 2022g
+
+  - country: MX
+    zones:
+      - America/Bahia_Banderas
       - America/Mazatlan
       - America/Merida
       - America/Mexico_City
