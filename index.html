@@ -13,8 +13,8 @@ Changes are filed under the year in which notice was first sent to the
 <code>tz</code> discussion list:
 </p>
 <ul>
-{% for year in (2016..2022) reversed %}
-  <li><a href="metadata/{{ year }}">{{ year }}</a></li>
+{% for year in (site.data.scope.coverage.start..site.data.scope.coverage.end) reversed %}
+  <li><a href="/metadata/{{ year }}">{{ year }}</a></li>
 {% endfor %}
 </ul>
 <p>

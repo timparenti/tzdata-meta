@@ -6,12 +6,35 @@ layout: default
 .container-lg {
   max-width: 90%;
 }
+.year-nav {
+  margin: -0.5em auto 1em auto;
+  font-size: 80%;
+  font-weight: 200;
+  float: right;
+}
 </style>
 
 {% include scope.html %}
 
 {%- assign year = page.title | downcase -%}
-<h2>Changes with notice first sent in {{ year }}</h2>
+{%- assign previous_year = year | minus: 1 -%}
+{%- assign next_year = year | plus: 1 -%}
+<h2>
+  Changes with notice first sent in {{ year }}
+</h2>
+<div class="year-nav">
+  {%- if previous_year >= site.data.scope.coverage.start -%}
+    <a href="/metadata/{{ previous_year }}">&laquo;&nbsp;{{ previous_year }}</a>
+  {%- else -%}
+    &laquo;&nbsp;{{ previous_year }}
+  {%- endif -%}
+  &nbsp;&centerdot;&nbsp;<strong>{{ year }}</strong>&nbsp;&centerdot;&nbsp;
+  {%- if next_year <= site.data.scope.coverage.end -%}
+    <a href="/metadata/{{ next_year }}">{{ next_year }}&nbsp;&raquo;</a>
+  {%- else -%}
+    {{ next_year }}&nbsp;&raquo;
+  {%- endif -%}
+</div>
 
 {%- assign changes = site.data.years[year].changes -%}
 <table>
