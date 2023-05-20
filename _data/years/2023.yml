@@ -1,0 +1,71 @@
+year: '2023'
+changes:
+  - country: LB
+    zones:
+      - Asia/Beirut
+    description: "Much of the Lebanese public went ahead with DST from 2023-03-26 anyway."
+    effective: '2023-03-25T22:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2023-March/032774.html'
+      time: '2023-03-27T11:26:14Z'
+    commits:
+      - sha1: 0e0b0eb3e5b3c046971ff69aae1ca69c1450f5b4
+        time: '2023-03-27T17:17:37Z'
+      - sha1: 4c3c3e2d3470ed035840e6b4f8936c217a55385c
+        time: '2023-03-27T22:14:40Z'
+    release: 2023c
+    notes: "In response to public dissent, the Prime Minister announced that the clock change would, officially, take effect from Thursday 2023-03-30 00:00; however, as many who resisted the original change had already moved their clocks forward from Sunday 2023-03-26 00:00, tzdata has modeled this as a simple reversion of the change released in 2023b."
+
+  - country: LB
+    zones:
+      - Asia/Beirut
+    description: "Lebanon delays the start of DST from 2023-03-26 00:00 to 2023-04-21 00:00."
+    effective: '2023-03-25T22:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2023-March/032747.html'
+      time: '2023-03-23T17:15:34Z'
+    commits:
+      - sha1: fa1ded4a5a30ef00990a892df6163ddfb9317728
+        time: '2023-03-23T18:45:11Z'
+    release: 2023b
+    notes: "This change, announced by the Prime Minister on just over two days' notice, was met with fierce opposition and was actively resisted by a significant portion of the general public.  After a few days, the Prime Minister relented, which was reflected in 2023c."
+
+  - country: MA
+    zones:
+      - Africa/Casablanca
+    description: "Morocco's post-Ramadan spring-forward transition is one week earlier than predicted, on 2023-04-23.  Adjust predictions for future years accordingly."
+    effective: '2023-04-23T02:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2023-March/032708.html'
+      time: '2023-03-14T21:46:55Z'
+    commits:
+      - sha1: 251c97bb872fe6074824a1144eea5f84c419bb9d
+        time: '2023-03-14T22:17:59Z'
+    release: 2023a
+
+  - country: PS
+    zones:
+      - Asia/Gaza
+      - Asia/Hebron
+    description: "Palestine suspends DST during Ramadan, and will spring forward on 2023-04-29 instead of 2023-03-25."
+    effective: '2023-03-25T00:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2023-March/032688.html'
+      time: '2023-03-13T15:39:41Z'
+    commits:
+      - sha1: c759f632702b2db2645f733e3574469fc20ee9c3
+        time: '2023-03-18T03:01:47Z'
+    release: 2023a
+
+  - country: EG
+    zones:
+      - Africa/Cairo
+    description: "Starting on 2023-04-28, Egypt will observe DST from April's last Friday through October's last Thursday."
+    effective: '2023-04-27T22:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2023-March/032598.html'
+      time: '2023-03-01T11:56:53Z'
+    commits:
+      - sha1: dcd8cbed23201416cbd3bbf43f669737693282d7
+        time: '2023-03-01T20:10:57Z'
+    release: 2023a
