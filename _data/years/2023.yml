@@ -1,5 +1,32 @@
 year: '2023'
 changes:
+  - country: AQ
+    zones:
+      - Antarctica/Vostok
+    description: "Vostok, Antarctica changed from +07 to +05 on 2023-12-18 by shifting from 02:00 to 00:00."
+    effective: '2023-12-17T19:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2023-December/033317.html'
+      time: '2023-12-17T15:00:48Z'
+    commits:
+      - sha1: 1d0ae801a6fa85ba824ca6c017f75eab54657eba
+        time: '2023-12-19T07:27:30Z'
+    release: 2023d
+    notes: "Previously, Vostok time was erroneously reported as +06."
+
+  - country: GL
+    zones:
+      - America/Scoresbysund
+    description: "Ittoqqortoormiit joins most of the rest of Greenland's timekeeping practice from 2024-03-31 by not springing forward, shifting from -01/+00 to -02/-01."
+    effective: '2024-03-31T01:00:00Z'
+    notice:
+      url: 'https://mm.icann.org/pipermail/tz/2023-October/033147.html'
+      time: '2023-10-29T19:54:01Z'
+    commits:
+      - sha1: 0f79a07202ab13e6c8069a34912be50518e04440
+        time: '2023-10-29T19:52:14Z'
+    release: 2023d
+
   - country: LB
     zones:
       - Asia/Beirut
