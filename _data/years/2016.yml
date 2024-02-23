@@ -241,7 +241,7 @@ changes:
     effective: '2016-03-26T16:00:00Z'
     notice:
       url: 'https://mm.icann.org/pipermail/tz/2016-February/023276.html'
-      time: '2016-02-23T00:00:52Z'
+      time: '2016-02-23T00:02:52Z'
     commits:
       - sha1: 50e017c2bfa16dade5132faca177726d04a365f0
         time: '2016-02-23T09:26:13Z'
