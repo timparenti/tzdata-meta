@@ -1,5 +1,20 @@
 year: '2024'
 changes:
+  - country: PY
+    zones:
+      - America/Asuncion
+    description: "Paraguay adopts year-round -03 after springing forward on 2024-10-06 and will no longer fall back to -04 at the end of 2025-03-22."
+    effective: '2025-03-23T03:00:00Z'
+    notice:
+      url: 'https://lists.iana.org/hyperkitty/list/tz@iana.org/message/3SJ53NDPGLTJXVMJ73ESQBGGAXZD76QJ/'
+      time: '2024-10-04T18:07:32Z'
+    commits:
+      - sha1: 636e6f983bca35e6f945e092ffdc315ae3e5dd9e
+        time: '2024-10-05T16:57:40Z'
+      - sha1: 486e1e890e68d52f9236b2b354484463f57ec692
+        time: '2024-10-15T15:13:38Z'
+    release: 2025a
+
   - country: PS
     zones:
       - Asia/Gaza
