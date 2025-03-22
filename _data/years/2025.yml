@@ -1,0 +1,16 @@
+year: '2025'
+changes:
+  - country: CL
+    zones:
+      - America/Coyhaique
+    description: "Chile's Aysén Region joins Magallanes Region in observing -03 year-round by not changing its clocks on 2025-04-05 at 24:00, diverging from America/Santiago.  New zone America/Coyhaique."
+    effective: '2025-04-06T03:00:00Z'
+    notice:
+      url: 'https://lists.iana.org/hyperkitty/list/tz@iana.org/message/KIDPPLXKVZL7C7KU3AKJRTZ4WBF2QAHH/'
+      time: '2025-03-20T14:57:49Z'
+    commits:
+      - sha1: ee73bc3a722d297495062b649abc849cfabd588c
+        time: '2025-03-20T15:43:02Z'
+      - sha1: ed0aff98da0938d196076d964c915b5934be036f
+        time: '2025-03-22T20:11:53Z'
+    release: 2025b
