@@ -9,7 +9,7 @@ changes:
       url: 'https://mm.icann.org/pipermail/tz/2016-December/024631.html'
       time: '2016-12-04T14:24:16Z'
     commits:
-      - sha1: 075ad7016e4519cab9728fd248e79ce50637ddd6 
+      - sha1: 075ad7016e4519cab9728fd248e79ce50637ddd6
         time: '2016-12-05T08:34:57Z'
     release: 2017a
 

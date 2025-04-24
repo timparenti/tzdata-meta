@@ -164,7 +164,7 @@ changes:
       url: 'https://mm.icann.org/pipermail/tz/2018-March/026347.html'
       time: '2018-03-16T17:45:33Z'
     commits:
-      - sha1: db6b741026eace55a939a13a32a7b6eca9897c10 
+      - sha1: db6b741026eace55a939a13a32a7b6eca9897c10
         time: '2018-03-16T18:37:50Z'
     release: 2018d
 
