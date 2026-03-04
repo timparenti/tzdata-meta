@@ -312,7 +312,7 @@ changes:
         time: '2016-01-02T19:02:13Z'
     release: 2016a
 
-  # One other relevant change was published in 2016; however, first notice was sent in 2015:
+  # One other relevant change was published in 2016; however, first notice was received in 2015:
   #- country: US
   #  zones:
   #    - America/Metlakatla
