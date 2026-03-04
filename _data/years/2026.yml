@@ -1,0 +1,17 @@
+year: '2026'
+changes:
+  - country: MD
+    zones:
+      - Europe/Chisinau
+    description: "Moldova formally adopted EU transition times of 01:00 UTC instead of 00:00 UTC on 2026-02-25, having used them in practice since 2022-03-27."
+    effective: '2026-03-29T00:00:00Z'
+    notice:
+      url: 'https://lists.iana.org/hyperkitty/list/tz@iana.org/thread/BJKJFGKLLQYCPZGPB6BG562C5E5BRLCR/'
+      # time: '2026-02-22T03:33:00Z'  # sent
+      time: '2026-02-23T19:50:16Z'  # released from moderation queue
+    commits:
+      - sha1: be2603b0314256aa61d5ee82a931d14dc7519c7e
+        time: '2026-02-24T08:59:21Z'
+      - sha1: c6713905fcfcda231c83f69eb0ce88675bac4edf
+        time: '2026-02-27T21:18:41Z'
+    release: 2026a
