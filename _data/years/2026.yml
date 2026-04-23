@@ -1,12 +1,27 @@
 year: '2026'
 changes:
+  - country: CA
+    zones:
+      - America/Vancouver
+    description: "Most of British Columbia springs forward for the last foreseeable time on 2026-03-08 and formally adopts year-round -07 the following day.  Clocks will no longer fall back to -08 as previously scheduled on 2026-11-01 at 02:00."
+    effective: '2026-11-01T09:00:00Z'
+    notice:
+      url: 'https://lists.iana.org/hyperkitty/list/tz@iana.org/message/667WE5QTIA7MP2E7NC7T3SO7VLMZLVZS/'
+      time: '2026-03-02T20:59:10Z'
+    commits:
+      - sha1: 8b46071fd85a7a9434d63894bac64d30362cc16d
+        time: '2026-03-03T17:50:14Z'
+      - sha1: 8e7dcafc27d697c51dda77bb8804d62eda033c04
+        time: '2026-03-07T08:11:29Z'
+    release: 2026b
+
   - country: MD
     zones:
       - Europe/Chisinau
     description: "Moldova formally adopted EU transition times of 01:00 UTC instead of 00:00 UTC on 2026-02-25, having used them in practice since 2022-03-27."
     effective: '2026-03-29T00:00:00Z'
     notice:
-      url: 'https://lists.iana.org/hyperkitty/list/tz@iana.org/thread/BJKJFGKLLQYCPZGPB6BG562C5E5BRLCR/'
+      url: 'https://lists.iana.org/hyperkitty/list/tz@iana.org/message/BJKJFGKLLQYCPZGPB6BG562C5E5BRLCR/'
       # time: '2026-02-22T03:33:00Z'  # sent
       time: '2026-02-23T19:50:16Z'  # released from moderation queue
     commits:
