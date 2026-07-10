@@ -1,5 +1,33 @@
 year: '2026'
 changes:
+  - country: MA
+    zones:
+      - Africa/Casablanca
+      - Africa/El_Aaiun
+    description: "Morocco shifts from +01/+00 with negative Ramadan transitions to year-round +00 on 2026-09-20 at 02:00."
+    effective: '2026-09-20T01:00:00Z'
+    notice:
+      url: 'https://lists.iana.org/hyperkitty/list/tz@iana.org/message/F5ZS6S346Q7KBI6OWYS4LMHXLZWVRWOH/'
+      time: '2026-06-25T15:04:20Z'
+    commits:
+      - sha1: d0d949d4b36b0f63db3e25dc1b6ae5065a380c55
+        time: '2026-06-25T15:02:17Z'
+    release: 2026c
+
+  - country: CA
+    zones:
+      - America/Edmonton
+    description: "Alberta's 2026-03-08 spring forward was its last foreseeable clock change, as it formally adopted year-round -06 on 2026-06-18.  Clocks will no longer fall back to -07 as previously scheduled on 2026-11-01 at 02:00."
+    effective: '2026-11-01T08:00:00Z'
+    notice:
+      url: 'https://lists.iana.org/hyperkitty/list/tz@iana.org/message/C3Y3DHRYYI7FORENQ3N2ZL52YMDT5CYI/'
+      time: '2026-06-19T15:56:58Z'
+    commits:
+      - sha1: 8587fdfc717f8ec9c925ba93b9cab7209820e83d
+        time: '2026-06-19T15:41:03Z'
+    release: 2026c
+    notes: "Legal implementation followed from earlier policy announcements by the Premier on 2026-04-20."
+
   - country: CA
     zones:
       - America/Vancouver
