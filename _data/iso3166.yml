@@ -1,6 +1,6 @@
 # This file is meant to represent the ISO 3166-1 standard.  Do NOT propose pull
 # requests to change this data, except to reflect changes which have been made
-# in the ISO 3166-1 standard as listed at https://www.iso.org/obp/ui/#iso:pub:PUB500001:en
+# in the ISO 3166-1 standard as listed at https://www.iso.org/obp/ui/#search/code/
 # This file uses the "short English name", omitting leading "the" where it occurs.
 AD:
   name: Andorra
@@ -507,7 +507,7 @@ NP:
   name: Nepal
   emoji: 🇳🇵
 NR:
-  name: Nauru
+  name: Naoero
   emoji: 🇳🇷
 NU:
   name: Niue
