@@ -1,5 +1,21 @@
 year: '2026'
 changes:
+  - country: CA
+    zones:
+      - America/Inuvik
+    description: "Canada's Northwest Territories formally adopted year-round -06 on 2026-08-21, matching Alberta's recent change.  Clocks will no longer fall back to -07 as previously scheduled on 2026-11-01 at 02:00."
+    effective: '2026-11-01T08:00:00Z'
+    notice:
+      url: 'https://lists.iana.org/hyperkitty/list/tz@iana.org/message/DGOH4YUNHD72QYAUT4QHLLHWPUCDKLBN/'
+      time: '2026-07-24T22:23:33Z'
+    commits:
+      - sha1: edb778cf5b9140e01453a05788c74301b7767357
+        time: '2026-07-24T22:20:01Z'
+      - sha1: 5bfcd01cd665791442cf3a24df99c1d6ff442c3a
+        time: '2026-08-21T14:54:05Z'
+    release: 2026d
+    notes: "Legal implementation followed from earlier policy announcements by the Premier on 2026-04-20.  Most of Northwest Territories was already covered by the change to America/Edmonton released in 2026c."
+
   - country: MA
     zones:
       - Africa/Casablanca
